@@ -1,3 +1,8 @@
+# Верстаем landing page на HTML5 https://geekbrains.ru/events/690
+
+В ветке `master` лежит текущий результат разработки.
+Все вебинары разбиты по веткам, список https://github.com/frendly/geekbrains-1/branches
+
 ### vs code
 скачать редактор кода https://code.visualstudio.com/Download
 ### adobe assets
