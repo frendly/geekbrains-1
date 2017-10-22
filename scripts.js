@@ -1,3 +1,5 @@
+"use strict";
+
 (function() {
   var menuButton = document.querySelector('.js-button-menu');
   var menu = document.querySelector('.button-menu');
