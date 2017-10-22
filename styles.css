@@ -52,6 +52,7 @@ a:hover {
   list-style: none;
   margin-right: 30px;
   color: rgba(255, 255, 255, .8);
+  position: relative;
 }
 
 .main-menu__link {
@@ -61,6 +62,27 @@ a:hover {
 /* button-menu */
 .button-menu {
   display: none;
+  position: absolute;
+  right: 0;
+  list-style: none;
+  text-align: right;
+  padding: 10px 0 0;
+  margin: 0;
+}
+
+#checkbox-button-menu:checked + .button-menu {
+  display: block;
+}
+
+.button-menu__link {
+  background-color: rgba(255, 255, 255, .4);
+  padding: 10px 40px;
+  display: block;
+  text-decoration: none;
+}
+.button-menu__link:hover {
+  background-color: #eee;
+  color: #333;
 }
 
 
