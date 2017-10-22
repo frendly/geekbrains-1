@@ -57,6 +57,7 @@ a:hover {
 
 .main-menu__link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* button-menu */
@@ -70,7 +71,13 @@ a:hover {
   margin: 0;
 }
 
+/* for css menu
 #checkbox-button-menu:checked + .button-menu {
+  display: block;
+}
+*/
+
+.button-menu--open {
   display: block;
 }
 
