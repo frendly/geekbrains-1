@@ -26,10 +26,25 @@
           <a class="main-menu__link" href="#">sing up</a>
         </li>
         <li class="main-menu__item">
-            ☰
+          <span class="main-menu__link js-button-menu">☰</span>
+            <!-- <label for="checkbox-button-menu">☰</label>
+            <input id="checkbox-button-menu" type="checkbox" hidden /> -->
             <ul class="button-menu">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li class="button-menu__item">
+                <a class="button-menu__link" href="#">Find</a>
+              </li>
+              <li class="button-menu__item">
+                <a class="button-menu__link" href="#">Your</a>
+              </li>
+              <li class="button-menu__item">
+                <a class="button-menu__link" href="#">Favorite</a>
+              </li>
+              <li class="button-menu__item">
+                <a class="button-menu__link" href="#">Recipes</a>
+              </li>
+              <li class="button-menu__item">
+                <a class="button-menu__link" href="#">Contact</a>
+              </li>
             </ul>
         </li>
       </ul>
@@ -42,12 +57,45 @@
       <span class="main__title-big">Recipes</span>
     </h1>
 
-    <a class="main__button" href="#">get started</a>
+    <a class="main__button" href="#app">get started</a>
     
     <p class="main__description">
       or send us your own recipes and <a href="#">get rewarded</a>!
     </p>
   </section> <!-- /. main -->
+
+  <section class="features">
+    <ul class="features__list">
+      <li class="features__item features__item--burger">
+        <h3 class="section-title">get inspired</h3>
+        <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora sint in doloribus quasi qui quibusdam impedit cum molestiae voluptatum minus enim, nihil nesciunt, accusantium exercitationem ipsum asperiores veniam. Vitae.</p>
+      </li>
+      <li class="features__item features__item--money">
+        <h3 class="section-title">get rewarded</h3>
+        <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora sint in doloribus quasi qui quibusdam impedit cum molestiae voluptatum minus enim, nihil nesciunt, accusantium exercitationem ipsum asperiores veniam. Vitae.</p>
+      </li>
+      <li class="features__item features__item--man">
+        <h3 class="section-title">get social</h3>
+        <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora sint in doloribus quasi qui quibusdam impedit cum molestiae voluptatum minus enim, nihil nesciunt, accusantium exercitationem ipsum asperiores veniam. Vitae.</p>
+      </li>
+    </ul>
+  </section> <!-- /.features -->
+
+  <section class="app" id="app">
+    <div class="app__image"></div>
+    <div class="app__content">
+      <h1 class="section-title section-title--left">introducing the fudi app</h1>
+      <p class="app__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ad error qui eius in quaerat facere incidunt voluptas cum, ab necessitatibus sequi? Totam, repellat eaque rerum eos reprehenderit praesentium nostrum.</p>
+      <p class="app__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ad error qui eius in quaerat facere incidunt voluptas cum, ab necessitatibus sequi? Totam, repellat eaque rerum eos reprehenderit praesentium nostrum.</p>
+      <p class="app__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ad error qui eius in quaerat facere incidunt voluptas cum, ab necessitatibus sequi? Totam, repellat eaque rerum eos reprehenderit praesentium nostrum.</p>
+
+      <p class="app__description">
+        <a class="app__link app__link--appstore" href="#">app store</a>
+        <a class="app__link app__link--googleplay" href="#">google play</a>
+      </p>
+    </div> <!-- /. app__content -->
+  </section> <!-- /. app -->
 </body>
 
+<script src="scripts.js"></script>
 </html>

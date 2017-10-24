@@ -1,0 +1,31 @@
+.button-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  list-style: none;
+  text-align: right;
+  padding: 10px 0 0;
+  margin: 0;
+
+  &--open {
+    display: block;
+  }
+
+  &__link {
+    background-color: rgba(255, 255, 255, .4);
+    padding: 10px 40px;
+    display: block;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #eee;
+      color: #333;
+    }
+  }
+}
+
+/* for css menu
+#checkbox-button-menu:checked + .button-menu {
+  display: block;
+}
+*/
