@@ -89,11 +89,7 @@ a:hover {
   background-color: #eee;
   color: #333;
 }
-/* for css menu
-#checkbox-button-menu:checked + .button-menu {
-  display: block;
-}
-*/
+/* for css menu */
 .main {
   background-image: url('images/bg.jpg');
   background-repeat: no-repeat;
