@@ -47,6 +47,20 @@ a:hover {
 .section-title--left {
   align-items: left;
 }
+.reviews-controll__item {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+}
+.reviews-controll__item--active,
+.reviews-controll__item:hover {
+  background-color: #fff;
+}
 .main-menu {
   margin-left: auto;
 }
@@ -228,4 +242,29 @@ a:hover {
   background-image: url('images/googleplay@2x.png');
   width: 120px;
   height: 39px;
+}
+.reviews {
+  background-color: #493647;
+  padding: 85px 0;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.reviews__avatar {
+  margin-bottom: 30px;
+}
+.reviews__text {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 30px;
+}
+.reviews__author {
+  font-size: 18px;
+  line-height: 36px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+.reviews__author:before,
+.reviews__author:after {
+  content: "-";
+  margin: 0 5px;
 }

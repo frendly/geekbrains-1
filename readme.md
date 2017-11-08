@@ -3,22 +3,15 @@
 В ветке `master` лежит текущий результат разработки.
 Все вебинары разбиты по веткам, список https://github.com/frendly/geekbrains-1/branches
 
-### vscode плагин Easy LESS
-* скачать плагин: https://marketplace.visualstudio.com/items?itemName=mrcrowl.easy-less
-* github: https://github.com/mrcrowl/vscode-easy-less
+=== psd макет и результат разработки на гитхаб: https://goo.gl/gxDqta
+=== телеграм чат: https://goo.gl/XT6sVM
 
-### меню на css
-* подробнее о псевдоклассе `:checked`: http://htmlbook.ru/css/checked
-* подробнее о атрибуте `hidden`: http://htmlbook.ru/html/attr/hidden
+### Сегодня речь пойдет о:
+* live reload в vscode
+* верстаем блоки на flex
+* центрирование фоновых изображений
+* обсудим разницу между списками в html: ul(ol) и dl
+* позиционирование текста поверх изображений
 
-### меню на js
-* `addEventListener`: https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener
-* `stopPropagation`: https://developer.mozilla.org/ru/docs/Web/API/Event/stopPropagation
-* `classList`: https://developer.mozilla.org/ru/docs/Web/API/Element/classList
-
-### списки на flex
-* `justify-content: space-between` – равномерно распределяет все элементы по ширине flex-блока: https://developer.mozilla.org/ru/docs/Web/CSS/justify-content
-* подробнее о псевдоклассе `before`: http://htmlbook.ru/css/before
-
-### использование ссылок-якорей
-* подробнее о якорях http://htmlbook.ru/samhtml/yakorya
+### Предыдущая часть вебинара
+используем препроцессор less, верстаем меню – https://goo.gl/mhHyKM
