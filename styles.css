@@ -47,6 +47,9 @@ a:hover {
 .section-title--left {
   align-items: left;
 }
+.section-title--meals {
+  margin-bottom: 50px;
+}
 .reviews-controll__item {
   cursor: pointer;
   width: 10px;
@@ -245,6 +248,10 @@ a:hover {
 }
 .reviews {
   background-color: #493647;
+  background-image: url('images/review-bg@2x.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 85px 0;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
@@ -267,4 +274,86 @@ a:hover {
 .reviews__author:after {
   content: "-";
   margin: 0 5px;
+}
+.meals {
+  padding: 100px 0 50px;
+}
+.meals__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.meals__item {
+  position: relative;
+  color: #fff;
+  width: 320px;
+  height: 225px;
+}
+.meals__image {
+  width: 100%;
+}
+.meals__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+}
+.meals__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.meals__count {
+  font-size: 15px;
+  line-height: 30px;
+  font-style: italic;
+  letter-spacing: 0.7px;
+}
+.recipes-counter {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  margin: 0;
+}
+.recipes-counter__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0 0 12px;
+}
+.recipes-counter__description {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+.footer {
+  height: 93px;
+  background-color: #f7f7f7;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.footer__copyright {
+  color: rgba(139, 139, 139, 0.5);
+  margin: 0;
+}
+.footer__design {
+  margin: 0;
+  margin-left: auto;
+  text-transform: uppercase;
+  color: #8b8b8b;
+}
+.footer__link {
+  color: #000;
+  text-decoration: none;
+  margin-left: 5px;
 }

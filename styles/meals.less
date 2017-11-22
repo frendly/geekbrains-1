@@ -1,0 +1,42 @@
+.meals {
+  padding: 100px 0 50px;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+  &__item {
+    position: relative;
+    color: #fff;
+    width: 320px;
+    height: 225px;
+  }
+  &__image {
+    width: 100%;
+  }
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  &__count {
+    font-size: 15px;
+    line-height: 30px;        
+    font-style: italic;
+    letter-spacing: 0.7px;
+  }
+}
